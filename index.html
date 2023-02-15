@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="osnovnoy">
+      <div class="container">
+        <div class="auth-form">
+          <div class="field">
+            <span>Name:</span>
+            <input placeholder="Write name" type="text" class="name-input" />
+          </div>
+          <div class="field">
+            <span>Email:</span>
+            <input placeholder="Email" type="text" class="email-input" />
+          </div>
+          <div class="field">
+            <span>Image URL:</span>
+            <input placeholder="Image URL" type="text" class="imageurl-input" />
+          </div>
+          <div class="field">
+            <span>Phone:</span>
+            <input placeholder="Number" type="text" class="phone-input" />
+          </div>
+          <div class="field"><button class="btn-sozdat">Создать</button></div>
+        </div>
+      </div>
+      <div class="container">
+        <ul class="task-list"></ul>
+      </div>
+    </div>
+    <div class="main-modal">
+      <div class="inner-modal">
+        <div class="close">
+          <button class="btn-closer">X</button>
+        </div>
+        <input type="text" class="inp1-edit" />
+        <input type="text" class="inp2-edit" />
+        <input type="text" class="inp3-edit" />
+        <input type="text" class="inp4-edit" />
+
+        <button class="btn-save">Сохранить изменения</button>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
